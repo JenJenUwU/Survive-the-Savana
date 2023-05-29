@@ -17,18 +17,18 @@ class Piece:
 
 ## Creates instances of chess pieces, so far we got: pawn, king, rook and bishop
 ## The first parameter defines what team its on and the second, what type of piece it is
-bp = Piece('b', 'p', 'b_pawn.png')
-wp = Piece('w', 'p', 'w_pawn.png')
-bk = Piece('b', 'k', 'b_king.png')
-wk = Piece('w', 'k', 'w_king.png')
-br = Piece('b', 'r', 'b_rook.png')
-wr = Piece('w', 'r', 'w_rook.png')
-bb = Piece('b', 'b', 'b_bishop.png')
-wb = Piece('w', 'b', 'w_bishop.png')
-bq = Piece('b', 'q', 'b_queen.png')
-wq = Piece('w', 'q', 'w_queen.png')
-bkn = Piece('b', 'kn', 'b_knight.png')
-wkn = Piece('w', 'kn', 'w_knight.png')
+bp = Piece('b', 'p', 'images/b_pawn.png')
+wp = Piece('w', 'p', 'images/w_pawn.png')
+bk = Piece('b', 'k', 'images/b_king.png')
+wk = Piece('w', 'k', 'images/w_king.png')
+br = Piece('b', 'r', 'images/b_rook.png')
+wr = Piece('w', 'r', 'images/w_rook.png')
+bb = Piece('b', 'b', 'images/b_bishop.png')
+wb = Piece('w', 'b', 'images/w_bishop.png')
+bq = Piece('b', 'q', 'images/b_queen.png')
+wq = Piece('w', 'q', 'images/w_queen.png')
+bkn = Piece('b', 'kn', 'images/b_knight.png')
+wkn = Piece('w', 'kn', 'images/w_knight.png')
 
 
 starting_order = {(0, 0): pygame.image.load(br.image), (1, 0): pygame.image.load(bkn.image),
