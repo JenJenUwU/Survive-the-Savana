@@ -143,8 +143,8 @@ PIECE_IMAGES = {
         chess.BLACK: pygame.image.load("images/bk.png"),
     },
     chess.KNIGHT: {
-        chess.WHITE: pygame.image.load("images/wk.png"),
-        chess.BLACK: pygame.image.load("images/bk.png"),
+        chess.WHITE: pygame.image.load("images/wn.png"),
+        chess.BLACK: pygame.image.load("images/bn.png"),
     },
 }
 
